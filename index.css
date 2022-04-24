@@ -1,9 +1,26 @@
 body {
+    background-image: url('./images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
     margin: 0;
+}
+
+h1 {
+    text-align: center;
 }
 
 i {
     font-size: 22px;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
 }
 
 .nav ul {
@@ -50,6 +67,50 @@ i {
 }
 
 .leftSide {
-    float: left;  
-    padding-left: 80px;  
+    float: left;
+    padding-left: 80px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.container .sections {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 500px;
+    height: 250px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container .aboutSection {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.container .projectSection {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 300px;
+    margin-top: 20px;
 }
