@@ -6,7 +6,7 @@ i {
     font-size: 22px;
 }
 
-ul {
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,11 +16,11 @@ ul {
     font-weight: bold;
 }
 
-li {
+.nav li {
     float: left;
 }
 
-li a {
+.nav li a {
     display: block;
     color: white;
     text-align: center;
@@ -28,7 +28,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.nav li a:hover {
     background-color: #111;
 }
 
@@ -42,6 +42,11 @@ li a:hover {
 .rightSide {
     float: right;
     padding-right: 80px;
+}
+
+.middleSide {
+    float: right;
+    padding-right: 100px;
 }
 
 .leftSide {
