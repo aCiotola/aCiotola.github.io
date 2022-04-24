@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+}
+
+i {
+    font-size: 22px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.navName {
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    padding: 14px 16px;
+}
+
+.rightSide {
+    float: right;
+    padding-right: 80px;
+}
+
+.leftSide {
+    float: left;  
+    padding-left: 80px;  
+}
