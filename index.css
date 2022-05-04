@@ -3,9 +3,6 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-}
-
-body {
     margin: 0;
 }
 
@@ -17,24 +14,25 @@ i {
     font-size: 22px;
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 50px 0;
-    font-family: "Open Sans";
-    font-size: 20px;
+p {
+    text-align: center;
 }
 
-.container .sections {
-    position: relative;
+.container {
+    font-family: "Open Sans";
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.container .sections {    
     padding: 20px 40px;
     background-color: #333;
     border-radius: 8px;
     color: white;
-    width: 500px;
+    width: 700px;
     height: 250px;
-    margin-right: 20px;
-    margin-left: 20px;
-    margin-top: 10px;
 }
