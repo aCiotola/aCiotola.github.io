@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+  }
+
 body {
     background-image: url('../images/bg.jpg');
     background-repeat: no-repeat;
@@ -32,25 +36,58 @@ body {
 
 .Main {
     position: absolute;
-    margin-left: 10%;
-    margin-top: 50px;
+    margin-left: 15%;
+    margin-top: 60px;
 }
+
+.Main .tab-content {
+    text-align: center;
+    margin-right: 15%;
+}
+
+img {
+    border: 10px solid #333;
+    margin-top: 10px;
+  }
 
 .container {
     font-family: "Open Sans";
     font-size: 20px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    position: relative;
+    text-align: center;
 }
 
-.container .projectSection {
+.container .sections {    
     padding: 20px 40px;
     background-color: #333;
     border-radius: 8px;
     color: white;
-    width: 60%;
-    height: 300px;
+    width: 80%;
+    height: 250px;
+}
+
+#accountingApp .container .sections {
+    margin-left: 10%;
+}
+
+#calendarApp .container .sections {
+    margin-left: 7%;
+}
+
+#unityApp .container .sections {
+    margin-left: 15%;
+}
+
+#otherApp {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#otherApp .container .sections {
+    margin-left: 6%;
+}
+
+#futureApp {
+    margin-left: 20%;
+    margin-top: 100px;
 }
