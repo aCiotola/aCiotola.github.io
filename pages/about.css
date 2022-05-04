@@ -1,0 +1,67 @@
+body {
+    background-image: url('../images/bg.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+}
+
+.aboutparagraph {
+    text-indent: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 0;
+    font-family: "Open Sans";
+    font-size: 20px;
+}
+
+.container .aboutSection {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.container .skills {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 800px;
+    margin-top: 20px;
+}
+
+.container .experience {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.container .school {
+    position: relative;
+    padding: 20px 40px;
+    background-color: #333;
+    border-radius: 8px;
+    color: white;
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+}
