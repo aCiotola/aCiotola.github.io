@@ -1,3 +1,4 @@
+// Hide tabs and only show the tab that is clicked on.
 $(document).ready(function () {
   $('.sidenav:first').addClass('active');
   $('.tab-content:not(:first)').hide();

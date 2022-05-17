@@ -12,10 +12,11 @@ body {
 
 .sidenav {
     height: 100%;
-    width: 10%;
+    width: 150px;
     position: fixed;
     background-color: #333;
     margin-top: 50px;    
+    flex-grow: 1;
 }
 
 .sidenav a:hover {
@@ -36,7 +37,7 @@ body {
 
 .Main {
     position: absolute;
-    margin-left: 15%;
+    margin-left: 200px;
     margin-top: 60px;
 }
 
@@ -72,6 +73,20 @@ img {
 
 #calendarApp .container .sections {
     margin-left: 7%;
+}
+
+#pongApp {
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+#pongApp .container .sections {
+    margin-left: 15%;
+    height: 160px;
+}
+
+#pongApp .container #gameCanvas {
+    margin-top: 20px;
 }
 
 #unityApp .container .sections {

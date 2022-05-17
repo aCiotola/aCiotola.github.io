@@ -39,9 +39,10 @@
         </ul>
     </div>
 
-    <div id="mySidenav" class="sidenav"  onclick="topFunction()">
+    <div id="mySidenav" class="sidenav" onclick="topFunction()">
         <a href="#accountingApp">Accounting Application</a><br/>
         <a href="#calendarApp">MCCalendar</a><br/>
+        <a href="#pongApp">JavaScript Pong</a><br/>
         <a href="#unityApp">2D Unity Platformer</a><br/>
         <a href="#otherApp">Other Projects</a><br/>
         <a href="#futureApp">Future Projects</a><br/>
@@ -73,6 +74,17 @@
             </div>
             <img src="../images/calendarMain.png" alt="Calendar App Main Page"/>
             <img src="../images/calendarSchedule.png" alt="Calendar App Schedule Page"/>
+        </div>
+
+        <div id="pongApp" class="tab-content">
+            <div class="container">
+                <div class="sections">
+                    <h1>Pong in JavaScript</h1>
+                    <p>A Pong game made entirely in JavaScript. Use your mouse to control the left paddle.</p>    
+                </div>
+                <canvas id="gameCanvas" width="800" height="600"></canvas>
+                <script src="game.js"></script>  
+            </div>
         </div>
 
         <div id="unityApp" class="tab-content">
